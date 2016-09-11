@@ -3,9 +3,9 @@
 Você já programa em outra linguagem?
 
 Aqui vamos mostrar um pouco do que você precisa saber da linguagem.
-A ideia aqui não é ensinar programação, pelo contrário, esse material é para
-quem já tem vivencia prévia com alguma linguagem de programação e quer iniciar
-no mundo Python.
+A ideia não é ensinar programação, pelo contrário! Esse material é para
+quem já tem vivencia prévia com alguma linguagem e quer iniciar no mundo
+Python.
 
 Esse é um conteúdo bastante sintetizado e cheio de referências externas, onde,
 você poderá aprender mais sobre a linguagem. É uma excelente fonte de para
