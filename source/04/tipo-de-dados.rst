@@ -73,7 +73,7 @@ Deixando claro que não é possivel somar um inteiro à uma `string`.
 .. tip::
 
     Para fazer esses testes rápidos da linguagem sem precisar ficar criando
-    arquivos, você pode digitar simplesmente abrir o interpretador do python,
+    arquivos, você pode simplesmente abrir o interpretador do python,
     digitando "python" no terminal (ou abrir o interpretador Python se estiver
     no Windows).
 
