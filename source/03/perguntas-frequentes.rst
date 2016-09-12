@@ -96,6 +96,21 @@ utilizando Python, eram em sua grande maioria, projetos web.
 Existe um set imenso de Frameworks [#]_ que nos ajudam nessa tarefa.
 Entre os mais populares estão o Django [#]_ e o Flask [#]_.
 
+Padrão de Codificação
+=====================
+
+Assim como a maioria das linguagens, Python também possui um padrão de
+codigicação ela está é descrina na PEP8 [#]_. Haverá um capítulo desse livro
+para falar a respeito disso. 
+
+.. todo::
+   
+    Colocar a página do livro
+
+Existem algumas coisas que para programadores de outras linguagens como Java 
+podem aparecer absurdas. Mas como tempo, você não só se acostuma, mas consegue
+ver que aquele padrão torna seu código muito mais legível.
+
 
 .. rubric:: Footnotes
 
@@ -122,3 +137,6 @@ Entre os mais populares estão o Django [#]_ e o Flask [#]_.
 
 .. [#] `Flask <http://flask.pocoo.org/>`_ Web development, one drop at a time.
    (em inglês)
+
+.. [#] `PEP 8 -- Style Guide for Python Code
+   <https://www.python.org/dev/peps/pep-0008/>`_
