@@ -15,10 +15,11 @@ Python. Se você não conhece esse grupo, recomendo fortemente que assista pelo
 menos um vídeo deles. [#]_.
 
 Guido era bastante ativo na criação de uma outra linguagem chamada ABC [#]_, 
-cujo o intuito era ser simples e fácil de aprender. O Python surgiu com
-essa missão de ser uma linguagem democrática. De fato, funcionou, Python não é
-utilizada só por programadores, mas por biólogos [#]_, químicos, matemáticos e
-por muitos outros profissionais de diferentes áreas.
+cujo o intuito era ser simples e fácil de aprender. O Python herdou essa
+filosofia e surgiu com essa missão de ser uma linguagem democrática. 
+De fato, funcionou, Python não é utilizada só por programadores, mas por 
+biólogos [#]_, químicos, matemáticos e por muitos outros profissionais de 
+diferentes áreas.
 
 Foi assim que nasceu o Python, uma linguagem interpretada, de alto nível e,
 acima de tudo, simples.

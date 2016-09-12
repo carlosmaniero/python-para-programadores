@@ -5,7 +5,7 @@ Prefácio
 Após algum tempo programando em Python, tive a oportunidades de trabalhar em
 diferentes projetos em diferentes empresas e, portanto, com pessoas diferentes.
 Embora Python não seja uma linguagem nova, o mercado de trabalho está começando
-a  aquecer agora no Brasil. Portanto é muito difícil você encontrar
+a  aquecer agora no Brasil. Portanto, é muito difícil você encontrar
 programadores Python com anos de experiência.
 
 Por outro lado, Python é uma linguagem muito simples e em pouco tempo podemos
