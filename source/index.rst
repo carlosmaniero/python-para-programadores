@@ -1,3 +1,4 @@
+
 Python Para Programadores
 =====================================================
 
@@ -19,9 +20,6 @@ conteúdo dinâmico.
 
 Capítulos podem surgir e deixar de existir a medida que issues e pull requests
 forem criados, então contribua. :)
-
-Glossário:
-----------
 
 .. toctree::
 
