@@ -24,7 +24,6 @@ Glossário:
 ----------
 
 .. toctree::
-    :maxdepth: 2
 
     01/um-conto-de-natal
     02/tipo-de-dados
