@@ -1,5 +1,5 @@
 Capítulo 1 - Um conto de Natal
-==============================
+******************************
 
 Era uma vez um jovem chamado Guido van Rossum [#]_, apenas um Holandês comum
 que, como qualquer ser humano comum, ficou extremamente entediado pois seu
