@@ -27,6 +27,10 @@ chego até a me identificar e lembro que quando eu estava começando no mundo
 Python eu também queria trazer conceitos de outras linguagens, quando eu 
 poderia resolver de forma muito mais simples se pensasse de forma Pythonica.
 
+Para quem já programa Python, este livro pode ajudar a sanar dúvidas
+conceituais da linguagem e apresentar-lhes boas práticas para deixar o seu
+código Python ainda mais Pythonico.
+
 Escolhi o GitHub integrado ao RTFD para que seja um  conteúdo dinâmico. 
 Capítulos podem surgir e deixar de existir a medida que issues e pull requests
 forem criados, então contribua. :)

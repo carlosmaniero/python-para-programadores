@@ -17,4 +17,4 @@ programa em Python e deseja entender mais a fundo a linguagem.
 
     01/prefacio
     02/um-conto-de-natal
-    03/tipo-de-dados
+    03/perguntas-frequentes

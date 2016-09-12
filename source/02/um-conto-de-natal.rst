@@ -20,9 +20,11 @@ essa missão de ser uma linguagem democrática. De fato, funcionou, Python não 
 utilizada só por programadores, mas por biólogos [#]_, químicos, matemáticos e
 por muitos outros profissionais de diferentes áreas.
 
+Foi assim que nasceu o Python, uma linguagem interpretada, de alto nível e,
+acima de tudo, simples.
+
 
 .. rubric:: Footnotes
-
 
 .. [#] `Site pessoal <https://gvanrossum.github.io/>`_ com algumas
    curiosidades, como um áudio com a pronúncia do seu próprio nome.
