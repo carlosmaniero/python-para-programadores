@@ -15,5 +15,6 @@ programa em Python e deseja entender mais a fundo a linguagem.
 
 .. toctree::
 
-    01/um-conto-de-natal
-    02/tipo-de-dados
+    01/prefacio
+    02/um-conto-de-natal
+    03/tipo-de-dados
