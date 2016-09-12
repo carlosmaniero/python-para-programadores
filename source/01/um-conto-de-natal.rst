@@ -20,7 +20,8 @@ utilizada só por programadores, mas por biólogos [#]_, químicos, matemáticos
 por muitos outros profissionais de diferentes áreas.
 
 
-.. rubric:: Notas
+.. rubric:: Footnotes
+
 
 .. [#] `Site pessoal <https://gvanrossum.github.io/>`_ com algumas
    curiosidades, como um áudio com a pronúncia do seu próprio nome.
