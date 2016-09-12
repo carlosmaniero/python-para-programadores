@@ -248,11 +248,11 @@ htmlhelp_basename = 'PythonParaProgramadoresdoc'
 latex_elements = {
      # The paper size ('letterpaper' or 'a4paper').
      #
-     # 'papersize': 'letterpaper',
+     'papersize': 'a4paper',
 
      # The font size ('10pt', '11pt' or '12pt').
      #
-     # 'pointsize': '10pt',
+     'pointsize': '12pt',
 
      # Additional stuff for the LaTeX preamble.
      #
@@ -267,7 +267,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PythonParaProgramadores.tex', 'Python Para Programadores Documentation',
+    (master_doc, 'PythonParaProgramadores.tex',
+     'Python Para Programadores',
      'Carlos Maniero', 'manual'),
 ]
 
@@ -309,7 +310,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pythonparaprogramadores', 'Python Para Programadores Documentation',
+    (master_doc, 'pythonparaprogramadores', 'Python Para Programadores',
      [author], 1)
 ]
 
@@ -324,8 +325,10 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PythonParaProgramadores', 'Python Para Programadores Documentation',
-     author, 'PythonParaProgramadores', 'One line description of project.',
+    (master_doc, 'PythonParaProgramadores', 'Python Para Programadores',
+     author, 'PythonParaProgramadores',
+     'Primeiros passos para quem vem de outra linguagem '
+     'para o mundo Pythonico',
      'Miscellaneous'),
 ]
 
