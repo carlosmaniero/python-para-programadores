@@ -244,49 +244,6 @@ html_static_path = ['_static']
 htmlhelp_basename = 'PythonParaProgramadoresdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_custom = r'''
-\definecolor{Admonition}{RGB}{221,233,239}
-
-\makeatletter
-  \newenvironment{admonitionbox}{
-    \begin{lrbox}{\@tempboxa}\begin{minipage}{\columnwidth}
-  }{
-    \end{minipage}\end{lrbox}
-    \colorbox{Admonition}{\usebox{\@tempboxa}}
-  }
-
-  \renewenvironment{notice}[2]{
-    \begin{admonitionbox}
-  }{
-    \end{admonitionbox}
-  }
-\makeatother
-'''
-
-latex_custom = r'''
-\definecolor{AdmonitionHeavyColor}{RGB}{255,204,204}
-\definecolor{AdmonitionLightColor}{RGB}{238,238,238}
-
-\makeatletter
-  \renewcommand{\py@endheavybox}{
-    \endminipage
-    \endSbox
-    \savebox{\@tempboxa}{\fbox{\TheSbox}}
-    \colorbox{AdmonitionHeavyColor}{\usebox{\@tempboxa}}
-  }
-  \renewcommand{\py@endlightbox}{
-    \endminipage
-    \endSbox
-    \savebox{\@tempboxa}{\fbox{\TheSbox}}
-    \colorbox{AdmonitionLightColor}{\usebox{\@tempboxa}}
-    {%
-      \setlength{\parskip}{0pt}%
-      \par\noindent\rule[0.5ex]{\linewidth}{0.5pt}%
-      \par\vspace{-0.5ex}%
-    }
-  }
-\makeatother
-'''
 latex_elements = {
      # The paper size ('letterpaper' or 'a4paper').
      #
@@ -297,7 +254,6 @@ latex_elements = {
      # The font size ('10pt', '11pt' or '12pt').
      #
      'pointsize': '12pt',
-     'preamble': latex_custom
      # Additional stuff for the LaTeX preamble.
      #
      # 'preamble': '',
