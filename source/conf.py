@@ -245,58 +245,21 @@ htmlhelp_basename = 'PythonParaProgramadoresdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 latex_custom = r'''
-\definecolor{AdmonitionHeavyColor}{RGB}{255,204,204}
-\definecolor{AdmonitionLightColor}{RGB}{238,238,238}
+\definecolor{Admonition}{RGB}{221,233,239}
 
 \makeatletter
-
-  \renewcommand{\py@heavybox}{
-    \setlength{\fboxrule}{1pt}
-    \setlength{\fboxsep}{6pt}
-    \setlength{\py@noticelength}{\linewidth}
-    \addtolength{\py@noticelength}{-4\fboxsep}
-    \addtolength{\py@noticelength}{-2\fboxrule}
-    %\setlength{\shadowsize}{3pt}
-    \Sbox
-    \minipage{\py@noticelength}
+  \newenvironment{admonitionbox}{
+    \begin{lrbox}{\@tempboxa}\begin{minipage}{\columnwidth}
+  }{
+    \end{minipage}\end{lrbox}
+    \colorbox{Admonition}{\usebox{\@tempboxa}}
   }
 
-  \renewcommand{\py@endheavybox}{
-    \endminipage
-    \endSbox
-    \savebox{\@tempboxa}{\fbox{\TheSbox}}
-    \colorbox{AdmonitionHeavyColor}{\usebox{\@tempboxa}}
+  \renewenvironment{notice}[2]{
+    \begin{admonitionbox}
+  }{
+    \end{admonitionbox}
   }
-
-  \renewcommand{\py@lightbox}{
-    {%
-      \setlength\parskip{0pt}\par
-      \noindent\rule[0ex]{\linewidth}{0.5pt}%
-      %\par\noindent\vspace{-0.2ex}%
-    }
-    \setlength{\py@noticelength}{\linewidth}
-    \setlength{\fboxrule}{0pt}
-    \setlength{\fboxsep}{2pt}
-    %\setlength{\py@noticelength}{\linewidth}
-    \addtolength{\py@noticelength}{-4\fboxsep}
-    \addtolength{\py@noticelength}{-2\fboxrule}
-    \Sbox
-    \minipage{\py@noticelength}
-  }
-
-  \renewcommand{\py@endlightbox}{
-    \endminipage
-    \endSbox
-    \savebox{\@tempboxa}{\fbox{\TheSbox}}
-    \colorbox{AdmonitionLightColor}{\usebox{\@tempboxa}}
-    {%
-      \setlength{\parskip}{0pt}%
-      \par\noindent\rule[0.5ex]{\linewidth}{0.5pt}%
-      \par\vspace{-0.5ex}%
-    }
-  }
-
-
 \makeatother
 '''
 latex_elements = {
