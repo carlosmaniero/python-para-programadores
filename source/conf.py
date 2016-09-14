@@ -268,40 +268,12 @@ latex_custom = r'''
 \definecolor{AdmonitionLightColor}{RGB}{238,238,238}
 
 \makeatletter
-  \renewcommand{\py@heavybox}{
-    \setlength{\fboxrule}{1pt}
-    \setlength{\fboxsep}{6pt}
-    \setlength{\py@noticelength}{\linewidth}
-    \addtolength{\py@noticelength}{-4\fboxsep}
-    \addtolength{\py@noticelength}{-2\fboxrule}
-    %\setlength{\shadowsize}{3pt}
-    \Sbox
-    \minipage{\py@noticelength}
-  }
-
   \renewcommand{\py@endheavybox}{
     \endminipage
     \endSbox
     \savebox{\@tempboxa}{\fbox{\TheSbox}}
     \colorbox{AdmonitionHeavyColor}{\usebox{\@tempboxa}}
   }
-
-  \renewcommand{\py@lightbox}{
-    {%
-      \setlength\parskip{0pt}\par
-      \noindent\rule[0ex]{\linewidth}{0.5pt}%
-      %\par\noindent\vspace{-0.2ex}%
-    }
-    \setlength{\py@noticelength}{\linewidth}
-    \setlength{\fboxrule}{0pt}
-    \setlength{\fboxsep}{2pt}
-    %\setlength{\py@noticelength}{\linewidth}
-    \addtolength{\py@noticelength}{-4\fboxsep}
-    \addtolength{\py@noticelength}{-2\fboxrule}
-    \Sbox
-    \minipage{\py@noticelength}
-  }
-
   \renewcommand{\py@endlightbox}{
     \endminipage
     \endSbox
