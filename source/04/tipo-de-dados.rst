@@ -50,6 +50,7 @@ Agora o name é do tipo **int** como podemos ver abaixo:
 
    Alterar o tipo de uma variável, nunca é uma boa prática.
 
+
 Fortemente tipada
 =================
 
@@ -80,8 +81,8 @@ Deixando claro que não é possivel somar um inteiro à uma `string`.
     digitando "python" no terminal (ou abrir o interpretador Python se estiver
     no Windows).
 
-    Uma excelente alternativa é o ipython, com ele é possível autocompletar
-    como se tivesse utilizando uma IDE. Para instalar é simples:
+    Uma excelente alternativa é o ipython [#]_, com ele é possível
+    autocompletar como se tivesse utilizando uma IDE. Para instalar é simples:
 
     ::
 
@@ -89,6 +90,7 @@ Deixando claro que não é possivel somar um inteiro à uma `string`.
 
     Feito isso, basta digitar ipython no terminal e você poderá utilizar o
     shell interativo do Python de forma muito mais dinâmica.
+
 
 Vetores, Matrizes e Conjuntos
 =============================
@@ -168,9 +170,6 @@ precisa definir o seu tamanho. Vejamos um exemplo de utilização de listas.
         >>> del fruits[0]
         >>> print(fruits)
         ['apple']
-
-    Porém, o ideal é utilizar o método pop como no exemplo. :ref:`ex04-4`
-    na linha 15.
 
     A diferença entre o del e o pop do list, é que o pop irá retornar o
     elemento excluído.
@@ -265,3 +264,89 @@ conjuntos, ou seja, não aceita elementos duplicados.
 
     {1, 2}
 
+Não importa quantas vezes você adicionar um elemento ao set. Se ele já existir,
+ele sempre será ignorado.
+
+.. note::
+
+    Para criar uma lista vazia, você basta abrir e fechar os colchetes **[]**.
+    Seguindo a mesma lógica basta um par de parênteses **()**.
+    
+    Mas isso não é válido para criar um conjunto vazio. O par de chaves, também
+    é utilizado para criação de um dicionário (Calma! Vamos falar de 
+    dicionários disso logo abaixo). Então, para definir um conjunto vazio é 
+    necessário fazer de forma literal. Veja um exemplo abaixo:
+
+    ::
+
+        >>> a = {}
+        >>> print(type(a))
+        <type 'dict'>
+        >>> a = set()
+        >>> print(type(a))
+        <type 'set'>
+
+    O construtor do `set` aceita como parâmetro um iterável [#]_. A partir
+    desse iterável será gerado um conjunto.
+
+    ::
+
+        >>> set([1, 1, 2, 3, 3, 4])
+        {1, 2, 3, 4}
+
+
+Dicionários
+===========
+
+Um dict em Python, é uma estrutura de dado chave/valor. É muito simples
+trabalhar com ele. Veja um exemplo abaixo:
+
+
+.. literalinclude:: example_04_8.py
+    :language: python
+    :caption: ex04-8
+    :linenos:
+    :emphasize-lines: 13, 18
+
+::
+
+    The cartel of Pablo Escobar is Medellin
+    The cartel of Pacho is Cali
+    The cartel of Gustavo is Medellin
+    Gustavo was killed
+    The cartel of Gustavo is The Hell
+
+Nas **linhas 1-6**, estamos definindo o dicionário, na **linha 14**, estamos
+mudando o cartel do Gustavo. Já na **linha 16** surge um novo personagem - o 
+Miguel -, ele pertence ao cartel de Cali.
+
+.. note::
+
+   A chave de um dicionário não precisa ser necessariamente uma `string`. Na 
+   verdade, a chave pode ser qualquer objeto.
+
+   O Python utiliza o sistema de hash (assunto do próximo episódio, digo,
+   capítulo) para identificar se a chave solicitado está no dicionário.
+   Caso não esteja, uma `exception` do tipo KeyError é lançada.
+
+.. tip::
+
+    Assim como em listas, você pode excluir um valor utilizando o del ou pop.
+
+    ::
+
+        >>> del cartes['escobar']
+
+    ou
+
+    :: 
+
+        >>> cartes.pop('escobar')
+        Medellin
+
+.. rubric:: Footnotes
+
+.. [#] Site oficial: <https://ipython.org>
+
+.. [#] Um iterável é uma lista ou uma tupla, por exemplo. Dedicaremos um
+   capítulo inteiro do livro para explicar o que é um iterável.
