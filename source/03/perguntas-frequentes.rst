@@ -103,6 +103,7 @@ Assim como a maioria das linguagens, Python também possui um padrão de
 codigicação ela está é descrina na PEP8 [#]_. Haverá um capítulo desse livro
 para falar a respeito disso. 
 
+
 .. todo::
    
     Colocar a página do livro
