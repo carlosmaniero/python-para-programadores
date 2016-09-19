@@ -18,3 +18,4 @@ Antes de iniciar os exemplos, tenho que deixar claro que em Python, é possível
 utilizar qualqer objeto como uma condicional. Portanto, precisamos falar sobre
 o que é `True` (sim em Python é escrito com a primeira letra maiúscula) e o que
 é `False`.
+
