@@ -1,17 +1,21 @@
-
 Python Para Programadores
 =====================================================
 
-Você já programa em outra linguagem?
+Este é um pseudo-livro para falar de Python. O foco dele não á ser o melhor 
+livro de Python, nem sequer é estar nas prateleiras. Este é um livro sem nenhum
+direito autoral.
 
-Aqui vamos mostrar um pouco do que você precisa saber da linguagem.
-A ideia não é ensinar programação, pelo contrário! Esse material é para
-quem já tem vivencia prévia com alguma linguagem e quer iniciar no mundo
-Python.
+Aqui vamos mostrar um pouco do que você precisa saber da linguagem para evitar
+sotauqes de outras linguagens.
+
+Você não vai aprender a programar com esse livro, pelo contrário!
+Esse material é para quem já tem vivencia prévia com alguma linguagem e quer 
+iniciar no mundo Pythonico.
 
 Esse é um conteúdo bastante sintetizado e cheio de referências externas onde
-você poderá aprender mais sobre a linguagem. É uma excelente fonte para quem já
-programa em Python e deseja entender mais a fundo a linguagem.
+você poderá aprender mais sobre a linguagem. Espero que ele também seja uma 
+excelente fonte para quem já programa em Python e deseja entender mais a fundo
+a linguagem.
 
 .. toctree::
 
