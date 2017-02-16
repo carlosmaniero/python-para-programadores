@@ -118,10 +118,10 @@ podem parecer absurdas. Mas como tempo, você não só se acostuma, mas consegue
 ver que aquele padrão torna seu código muito mais legível.
 
 
-Phyton
-======
+Phyton / Phython / Pythom
+=========================
 
-Um panda brutalmente assassinado por uma cobra toda vez que alguém escreve
+Um panda é brutalmente assassinado por uma cobra toda vez que alguém escreve
 Phyton.
 
 Infelizmente, um dia desses, em uma publicação antiga minha, eu dizia que
