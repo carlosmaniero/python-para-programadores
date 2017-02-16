@@ -3,8 +3,10 @@ Perguntas Frequentes
 ********************
 
 Quem vem de outra linguagem, já tem muito bem definido os processos e
-ferramentas que utilizam para desenvolver software. Quando eu digo que programo
-em Python, as reações são sempre muito similiares. Tudo começa com um sonoro:
+ferramentas que utiliza para desenvolver software.
+
+Quando me perguntam em que linguagem eu programo, as reações são sempre muito
+similiares depois da responsta. Tudo começa com um sonoro:
 
 ::
     
@@ -23,14 +25,16 @@ Python é uma linguagem interpretada. Você pode também escrever bibliotecas
 Python utilizando C ou C++ [#]_, isso não é muito comum, mas necessário em
 alguns casos.
 
-Provavelmente, se você está acostumado com linguagens compiladas, uma das
-preocupações que você terá será em como distribuir a sua aplicação sem ceder o
-código-fonte.
+Se você está acostumado com linguagens compiladas, uma das preocupações que
+será sobre como distribuir a sua aplicação sem ceder o código-fonte.
 
 Acho que essa não é uma preocupaçãoa muito relevante, a não ser que você esteja
-fazendo alguma aplicação para desktop, que será distribuída de forma orgânica e
-que você não terá controle sobre quem irá instalar a sua aplicação, você
-consegue resolver isso de forma jurídica, através de contratos.
+fazendo alguma aplicação desktop, que será distribuída de forma orgânica e
+que você não terá controle sobre quem irá instalá-la. Não existe muitas formas
+de garantir que as pessoas não terá acesso ao seu código nesse caso. Existem
+algumas ferramentas para ofuscar código, entre outras práticas, mas
+sinceramente não é nada seguro. Nesses casos acredito que só é possível
+garantir que terceiros não se aproveitarão do seu produto de forma judicial.
 
 Se sua aplicação, rodar em um servidor - uma aplicações web -, por exemplo,
 você pode limitar o acesso do seu cliente aos servidores. Hoje em dia, boa
@@ -40,23 +44,24 @@ problema.
 Qual IDE utilizar?
 ==================
 
-Digo mais uma vez que Python é uma linguagem extremamente simples e isso
-facilita um bocado na hora de programar e dar manutenção nos projetos.
+Não cansarei de ser requetitivo que ao dizer que Python é uma linguagem 
+extremamente simples e isso facilita um bocado na hora de programar e dar
+manutenção.
 
 Por isso, não há uma real necessidade de uma IDE complexa e cheia de recursos
-para programar em Python. Na verdade, você ṕode programar em Python utilizando
+para programar em Python. Na verdade, você pode programar em Python utilizando
 qualquer dispositívo em que seja possível bater meia dúzia de teclas.
 
 Certa vez, esqueci o meu editor de texto aberto, minha gatinha passou sobre o
 teclado e quando fui ver, ela havia feito um "Hello World" em Python.
 
-Eu particularmente, utilizo o Vim [#]_, há uma infinidade de editores bons. 
+Eu utilizo o Vim [#]_, mas há uma infinidade de editores bons. 
 Vejo muitos programadores Python utilizando o Atom e o Sublime.
 
 Existem também IDEs comerciais e cheia de recursos para quem está acostumado
-como Visual Studio (que inclusive tem uma versão que suporta Python [#]_),
-Netbeans [#]_ e Eclipse [#]_, como o PyCharm [#]_, que acredito eu, seja a 
-IDE mais completa para desenvolvimento Python.
+como Visual Studio (que inclusive tem uma versão que suporta Python [#]_).
+Entre elas posso citar o Netbeans [#]_, Eclipse [#]_ e o PyCharm [#]_, que 
+acredito eu, seja a IDE mais completa para desenvolvimento Python.
 
 Só roda no Linux?
 =================
@@ -109,8 +114,19 @@ para falar a respeito disso.
     Colocar a página do livro
 
 Existem algumas coisas que para programadores de outras linguagens como Java 
-podem aparecer absurdas. Mas como tempo, você não só se acostuma, mas consegue
+podem parecer absurdas. Mas como tempo, você não só se acostuma, mas consegue
 ver que aquele padrão torna seu código muito mais legível.
+
+
+Phyton
+======
+
+Um panda é comido por uma cobra toda vez que alguém escreve Phython!
+
+É Python! P-Y-T-H-O-N.
+
+Infelizmente, um dia desses, em uma publicação antiga minha, eu dizia que
+estava trabalhando em um projeto "Phyton". Chorei.
 
 
 .. rubric:: Footnotes
