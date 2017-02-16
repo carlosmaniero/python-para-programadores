@@ -121,12 +121,11 @@ ver que aquele padrão torna seu código muito mais legível.
 Phyton
 ======
 
-Um panda é comido por uma cobra toda vez que alguém escreve Phython!
-
-É Python! P-Y-T-H-O-N.
+Um panda brutalmente assassinado por uma cobra toda vez que alguém escreve
+Phyton.
 
 Infelizmente, um dia desses, em uma publicação antiga minha, eu dizia que
-estava trabalhando em um projeto "Phyton". Chorei.
+estava trabalhando em um projeto "Phyton".
 
 
 .. rubric:: Footnotes
